@@ -5,7 +5,7 @@ This will be particularly important as we upgrade from Laravel 5, as even more c
 I couldn't find a suitable replacement and rewriting this and/or writing a separate content block (and potentially updating database references) seemed cumbersome.
 
 Works in conjunction with
-regional-facitiliies-auckland/embed
+regional-facitiliies-auckland/oembed
 
 ## Embed
 
