@@ -110,8 +110,6 @@ class Html extends Provider implements ProviderInterface
     {
         $images = (array) $this->bag->get('images');
         $images = array_map(function($image) {
-            if(!array_key_exists('alt', $image))
-                $image['alt'] = '';
             return $image;
         }, $images);
         if ($this->config['maxImages'] > -1) {
